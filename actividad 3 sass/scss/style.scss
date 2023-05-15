@@ -1,0 +1,33 @@
+@import 'estructuras_repetitivas';
+@import 'funciones';
+@import 'mixin';
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Estilos del menú */
+  
+  #menu {
+    position: sticky;
+    top: 0;
+    background-color: $colors;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    z-index: 999;
+  }
+  
+  #menu a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+  }
+  
+  #menu a:hover {
+    color: $colors;
+  }

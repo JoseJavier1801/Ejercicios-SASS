@@ -1,0 +1,27 @@
+$colors: #22f900, #f70000, #fc01f4, #03a6fd, #eaff05, #8f8787, #cf7602;
+$textsize: 20px,15px,10px,5px,2.5px,1.75px,0.75px;
+table{
+    @for $i from 1 through 7 {
+        tr:nth-of-type(#{$i}) {
+    
+          background-color: nth($colors, $i);
+    
+          td {
+            border: 1px solid ;
+            text-align: left;
+    
+            &:nth-child(2) {
+              width: 40%;
+            }
+          }
+        }
+      }
+}
+body{
+    @for $a from 1 through 6 {
+      h1:nth-of-type(#{$a}) {
+          font-size: nth($textsize,$a);
+    }
+  
+  }
+}

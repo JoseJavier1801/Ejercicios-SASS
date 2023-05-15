@@ -1,0 +1,24 @@
+@mixin centrar-bloque {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  @mixin centrar-elementos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @mixin center-block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  @mixin center-inline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

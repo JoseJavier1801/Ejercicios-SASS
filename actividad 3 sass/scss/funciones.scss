@@ -1,0 +1,7 @@
+@function calcularAnchura($valor, $limite, $disminucion: 2){
+
+    @while $valor > $limite{
+        $valor: math.div($valor, $disminucion);
+    }
+    @return $valor;
+}

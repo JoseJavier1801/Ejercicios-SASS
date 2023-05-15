@@ -1,0 +1,121 @@
+@charset "UTF-8";
+table tr:nth-of-type(1) {
+  background-color: #22f900;
+}
+table tr:nth-of-type(1) td {
+  border: 1px solid;
+  text-align: left;
+}
+table tr:nth-of-type(1) td:nth-child(2) {
+  width: 40%;
+}
+table tr:nth-of-type(2) {
+  background-color: #f70000;
+}
+table tr:nth-of-type(2) td {
+  border: 1px solid;
+  text-align: left;
+}
+table tr:nth-of-type(2) td:nth-child(2) {
+  width: 40%;
+}
+table tr:nth-of-type(3) {
+  background-color: #fc01f4;
+}
+table tr:nth-of-type(3) td {
+  border: 1px solid;
+  text-align: left;
+}
+table tr:nth-of-type(3) td:nth-child(2) {
+  width: 40%;
+}
+table tr:nth-of-type(4) {
+  background-color: #03a6fd;
+}
+table tr:nth-of-type(4) td {
+  border: 1px solid;
+  text-align: left;
+}
+table tr:nth-of-type(4) td:nth-child(2) {
+  width: 40%;
+}
+table tr:nth-of-type(5) {
+  background-color: #eaff05;
+}
+table tr:nth-of-type(5) td {
+  border: 1px solid;
+  text-align: left;
+}
+table tr:nth-of-type(5) td:nth-child(2) {
+  width: 40%;
+}
+table tr:nth-of-type(6) {
+  background-color: #8f8787;
+}
+table tr:nth-of-type(6) td {
+  border: 1px solid;
+  text-align: left;
+}
+table tr:nth-of-type(6) td:nth-child(2) {
+  width: 40%;
+}
+table tr:nth-of-type(7) {
+  background-color: #cf7602;
+}
+table tr:nth-of-type(7) td {
+  border: 1px solid;
+  text-align: left;
+}
+table tr:nth-of-type(7) td:nth-child(2) {
+  width: 40%;
+}
+
+body h1:nth-of-type(1) {
+  font-size: 20px;
+}
+body h1:nth-of-type(2) {
+  font-size: 15px;
+}
+body h1:nth-of-type(3) {
+  font-size: 10px;
+}
+body h1:nth-of-type(4) {
+  font-size: 5px;
+}
+body h1:nth-of-type(5) {
+  font-size: 2.5px;
+}
+body h1:nth-of-type(6) {
+  font-size: 1.75px;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+/* Estilos del menú */
+#menu {
+  position: sticky;
+  top: 0;
+  background-color: #22f900, #f70000, #fc01f4, #03a6fd, #eaff05, #8f8787, #cf7602;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  z-index: 999;
+}
+
+#menu a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+#menu a:hover {
+  color: #22f900, #f70000, #fc01f4, #03a6fd, #eaff05, #8f8787, #cf7602;
+}
+
+/*# sourceMappingURL=sv.css.map */
