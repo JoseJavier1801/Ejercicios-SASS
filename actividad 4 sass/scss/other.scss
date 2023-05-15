@@ -1,0 +1,27 @@
+@import "functions";
+@import "vars";
+@import "mixin";
+@import "section";
+
+// Resto de estilos necesarios
+body {
+  background-color: if($theme == 'light', $color-primary-light, $color-primary-dark);
+}
+
+.container {
+  color: if($theme == 'light', $color-secondary-light, $color-secondary-dark);
+  
+  @include centrado(10px, 20px, 20px);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @include reset;
+}
+
+$section-count: 4;
+
+@for $i from 1 through $section-count {
+  .section-title-#{$i} {
+    color: colorSectionTitle($i);
+  }
+}

@@ -1,0 +1,13 @@
+@use "sass:list";
+@import "vars";
+
+@function colorSectionTitle($position) {
+  $section-colors: (
+    #ff0000,
+    #00ff00,
+    #0000ff,
+    #ffff00
+  );
+
+  @return list.nth($section-colors, $position);
+}
